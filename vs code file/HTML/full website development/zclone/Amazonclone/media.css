@@ -1,0 +1,34 @@
+@media only screen and (max-width:477px){
+    .navmain ul li a{
+        display: none;
+    }
+    
+    .navright button{
+        display: none;
+    }
+    .navright input{
+        display: none;
+    }
+    
+    .navbar img{
+        margin-left: 210px;
+    }
+    .navbar{
+        width: 1100%;
+    }
+    .flex{
+        /* justify-content:space-evenly; */
+        display:inline-flex;
+
+    }
+    .fir{
+        margin: 0px 0px 0px 0px;
+    }
+   #l1{
+       /* align-items: right;
+       justify-content: right; */
+       /* margin-left: 32px; */
+   }
+
+
+}

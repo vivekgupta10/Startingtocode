@@ -1,0 +1,54 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+.some{
+    color: black;
+    width: 35px;
+    background-color: black;
+    margin: 35px;
+    padding-bottom: 0px;
+    
+}
+.som{
+    color: black;
+    width: 35px;
+    background-color: black;
+    margin: 35px;
+    padding: 0px;
+
+    
+}
+.short{
+    /* background-color: black; */
+    display: flex;
+    padding-bottom: 235px;
+    padding-top: 3px;
+    /* color: white; */
+}
+
+body{
+    display: flex;
+    /* margin: auto; */
+}
+
+.some{
+
+}
+
+
+#1line{
+
+
+}
+#2line{
+    transform: rotate(235px);
+}
+#3line{
+
+}
+#4line{
+
+}
+

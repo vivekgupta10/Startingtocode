@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color:rgb(22, 19, 19); color: rgb(247, 242, 242);">
+   <h1>How to make a working calculator using python </h1>
+   
+   
+    <p><strong>So in this toutorial you learn how to make a simple working calculater with python programing lanuguare.In recent how to vlog you learn how to make and execute a simple python file and now in this process you will learn how to make a simple calculater by that python file . If you don't visit our previous vlog how to make a python file you can go to that html with following link-file:///D:/vs%20code%20file/How%20to%20make/use%20python%20file.html So now we are going to see how to make a simple calculater using python. <strong>NOTE:You can use any variable you want in this. </strong> </strong></p><br><h3>Command use in this program:</h3>
+
+    <p>	   
+     <p></p>
+     <p>print("Please select operation -\n" \</p>
+      <p>       "1. Add\n" \</p>
+        <p>     "2. Subtract\n" \</p>
+           <p>  "3. Multiply\n" \</p>
+             <p>"4. Divide\n")</p>
+     <p></p>
+     <p></p>
+     
+     <p>select = int(input("Select operations form 1, 2, 3, 4 :"))</p>
+     <p></p>
+     <p>number_1 = int(input("Enter first number: "))</p>
+     <p>number_2 = int(input("Enter second number: "))</p>
+     <p></p>
+     <p>if select == 1:</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;print(number_1, "+", number_2, "=", number_1 + number_2)</p>
+           
+     <p></p>
+     <p>elif select == 2:</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;print(number_1, "-", number_2, "=",number_1 - number_2)</p>
+            
+    <p> </p>
+     <p>elif select == 3:</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;print(number_1, "*", number_2, "=",number_1 * number_2)</p>
+                         
+     <p></p>
+     <p>elif select == 4:</p>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;print(number_1, "/", number_2, "=",number_1 / number_2)</p>
+           
+     <p>else:</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;print("Invalid input")
+     </p>
+    <dl>
+       <dl><h3>How to make interface</h3></dl>
+       <dd><p>So first you make a interface so you can tell the people what to give input next and what input do what So to make that we use the following command:</p><br><p>print("Please select operation -\n" \</p><br><p>"1. Add\n" \</p><br><p>"2. Subtract\n" \</p><br><p>"3. Multiply\n" \</p><br><p>"4. Divide\n")</p> <br> <p><strong>output:</strong> </p><p>Please select operation -</p>
+         <p>1. Add</p>
+            <p>2. Subtract</p>
+               <p>3. Multiply</p>
+                  <p>4. Divide</p></dd>
+                  <dl><h3>Asking user which calculation to perform</h3></dl>
+                  <dd><p>Now you when you give choices to people you definetly need to take their choices or input to know which type of calclulation to perform so to get that you need to write this <p>select = int(input("Select operations form 1, 2, 3, 4 :"))</p> </p> <p>For python 3.0 and above <p>select = input("Select operations form 1, 2, 3, 4 :")</p></p><p><strong>output </strong><p>Select operations form 1, 2, 3, 4 :</p></p></dd>
+       <dl><h3>How to take input from user</h3></dl>
+       <dd><p>Your interface has been created but you need to take input\number from the user to do calculation so for that you use this command:<p>number_1 = int(input("Enter first number: "))</p><p>number_2 = int(input("Enter second number: "))</p> <p>For html 3.0 and above use this command:</p><p>number_1 = input("Enter first number: ")</p><p>number_2 = input("Enter second number: ")</p> <p><strong>output:</strong></p> <p>Enter first number: <br> Enter second number:</p>
+         <DL><h3>How to do calculation</h3></DL>
+         <dd><p>Now when you have input and know what calculation to do from here the main things get start The calculation. So do addition the command will be: <p>if select == 1:</p><p>&nbsp;&nbsp;&nbsp;&nbsp;print(number_1, "+", number_2, "=",number_1 + number_2)</p><p>This command will print the addition of the numbers given by the user</p><p>YOu have done the addition part but what if the user have choose to subract the number so to do subraction use this command under the first command:</p><p>elif select == 2:</p><p>&nbsp;&nbsp;&nbsp;&nbsp;print(number_1, "-", number_2, "=",number_1 - number_2)</p><p>This command will print the subraction of the numbers given by the user</p><p>To do multiplication use this command:</p>elif select == 3:</p><p>&nbsp;&nbsp;&nbsp;&nbsp;print(number_1, "*", number_2, "=",number_1 * number_2)</p><p>This command will print the multiplication of the numbers given by the user</p><p>To do division use this command:</p><p>elif select == 4:</p><p>&nbsp;&nbsp;&nbsp;&nbsp;print(number_1, "/", number_2, "=",number_1 / number_2)</p><p>This command will print the division of the numbers given by the user</p><p>If the user choose the number rather than your given choices so to tell the user that he has given the wrong input use this command:</p><p>else:</p><p>&nbsp;&nbsp;&nbsp;&nbsp;print("Invalid input")</p><p>This will tell the user that they have given the wrong answer</p><p><strong>NOTE:</strong>Be remember to take a one tab spaace after the conditonal statement otherwise the program will not run and show error.</p></dd>
+         <dl><h3>The last how to do exit</h3></dl>
+         <dd><p>Now everything has been completed the user get the output Now its time to end this command to end this command use this command:</p><p><strong>For python 2.9 and below use this command:</strong><br><p>raw_input('press enter to exit from this python file')</p> <p>exit()</p></p><p><strong>For python 3.0 and above version of python use this command:</strong><p> input('press enter to exit from this python file') </p><p>exit()</p></p></dd>
+
+
+       </dl>
+       
+    <h4>Now save this file as .py file and then open it with python compiler</h4>
+    <h3>Conratulation now you made a successfull calculater using python!</h3>
+       <h2>For more update stay tune with my website</h2>
+    
+
+
+    
+</body>
+</html>

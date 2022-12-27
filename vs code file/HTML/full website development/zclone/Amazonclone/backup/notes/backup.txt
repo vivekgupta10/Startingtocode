@@ -1,0 +1,51 @@
+<div class="custom-search">
+  <input type="text" class="custom-search-input" placeholder="Enter your email">
+  <button class="custom-search-botton" type="submit">Subscribe</button>  
+</div>
+
+
+
+
+
+
+rbtn:hover{
+    background-color: rgb(245, 238, 238);
+    cursor: pointer;
+    
+    
+}
+.rt{
+    font-weight: bold;
+    font-size: 15px;
+    filter: bl;
+}
+
+.res{
+    display:none;
+    /* background-color:rgb(37 61 89); */
+    background:none;
+    
+    position: sticky;
+    top: 43px;
+}
+
+.rsearch{
+    margin-top: 13px;
+    margin: 13px 3px 0px 5px;
+    width: 239px;
+    height: 26px;
+    border-radius: 3px;
+    
+}
+.rbtn{
+    background-color: white;
+    border: 1px solid black;  
+    /* border-radius: 5px; */
+    
+    margin-left: 3px;
+    height: 4%;
+    margin-top: 14px;
+    /* width: 239px; */
+    height: 26px;
+
+}

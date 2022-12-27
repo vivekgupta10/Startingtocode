@@ -1,0 +1,133 @@
+
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+          "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch cal",
+            "request": "launch",
+            "mainClass": "cal",
+            "projectName": "vs code file_85b7a725"
+        },
+        {
+            "type": "java",
+            "name": "Launch mix",
+            "request": "launch",
+            "mainClass": "games.mix",
+            "projectName": "vs code file_85b7a725"
+        },
+        {
+            "type": "java",
+            "name": "Launch greet",
+            "request": "launch",
+            "mainClass": "greet",
+            "projectName": "vs code file_85b7a725"
+        },
+        {
+            "type": "java",
+            "name": "Launch ktom",
+            "request": "launch",
+            "mainClass": "ktom",
+            "projectName": "vs code file_85b7a725"
+        },
+        {
+            "type": "java",
+            "name": "Launch lib",
+            "request": "launch",
+            "mainClass": "lib",
+            "projectName": "vs code file_85b7a725"
+        },
+        {
+            "type": "java",
+            "name": "Launch percal",
+            "request": "launch",
+            "mainClass": "percal",
+            "projectName": "vs code file_85b7a725"
+        },
+        {
+            "type": "java",
+            "name": "Launch psol",
+            "request": "launch",
+            "mainClass": "psol",
+            "projectName": "vs code file_85b7a725"
+        },
+        {
+            "type": "java",
+            "name": "Launch sum",
+            "request": "launch",
+            "mainClass": "sum",
+            "projectName": "vs code file_85b7a725"
+        },
+        {
+            "type": "java",
+            "name": "Launch test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "vs code file_85b7a725"
+        },
+        {
+            "type": "java",
+            "name": "Launch tf",
+            "request": "launch",
+            "mainClass": "tf",
+            "projectName": "vs code file_85b7a725"
+        },
+        {
+            "type": "java",
+            "name": "Launch tf1",
+            "request": "launch",
+            "mainClass": "tf1",
+            "projectName": "vs code file_85b7a725"
+        },
+        {
+            "type": "java",
+            "name": "Launch tf10",
+            "request": "launch",
+            "mainClass": "tf10",
+            "projectName": "vs code file_85b7a725"
+        },
+        {
+            "type": "java",
+            "name": "Launch tf2",
+            "request": "launch",
+            "mainClass": "tf2",
+            "projectName": "vs code file_85b7a725"
+        },
+        {
+            "type": "java",
+            "name": "Launch tf3",
+            "request": "launch",
+            "mainClass": "tf3",
+            "projectName": "vs code file_85b7a725"
+        },
+        {
+            "type": "java",
+            "name": "Launch tf6",
+            "request": "launch",
+            "mainClass": "tf6",
+            "projectName": "vs code file_85b7a725"
+        },
+        {
+            "type": "java",
+            "name": "Launch tf8",
+            "request": "launch",
+            "mainClass": "tf8",
+            "projectName": "vs code file_85b7a725"
+        },
+        {
+            "type": "java",
+            "name": "Launch tfseven",
+            "request": "launch",
+            "mainClass": "tfseven",
+            "projectName": "vs code file_85b7a725"
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+.rbtn:hover{
+    /* background-colo */
+    cursor: pointer;
+    
+    
+}
+.rt{
+    font-weight: bold;
+    font-size: 15px;
+    filter: bl;
+}
+
+.res{
+    display:none;
+    /* background-color:rgb(37 61 89); */
+    /* background:none; */
+    
+    position: sticky;
+    top: 50px;
+
+    /* position: relative;
+    width: 300px;*/
+} 
+
+.rsearch{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+    padding: 10px 10px 10px 20px; 
+    line-height: 1;
+    box-sizing: border-box;
+    outline: none;
+    
+}
+.rbtn{
+  position: absolute;
+  right: 3px; 
+  top: 3px;
+  bottom: 3px;
+  border: 0;
+  background: #d1095e;
+  color: #fff;
+  outline: none;
+  margin: 0;
+  padding: 0 10px;
+  border-radius: 100px;
+  /* z-index: 2; */
+  cursor: pointer;
+
+}

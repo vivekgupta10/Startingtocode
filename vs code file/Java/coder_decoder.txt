@@ -1,0 +1,48 @@
+class coderdecoder{
+
+    // Here are two array alpahabet and integer
+    private ArrayList<Integer> numarr = new ArrayList<>(26); // This is the number of alphabet
+    private ArrayList<Character> chararr = new ArrayList<>(26);//This array contains the alphabet
+
+     public coderdecoder() {// constructor of coderdecoder
+
+     for (int i = 1; i <=26 ; i++) { // This loop set the value of both the array
+        chararr.add((char)('`'+i));// This sets the value of alphabet
+        numarr.add(i);// And this sets the value of number/code array
+    }//loops ends
+
+     } //constructor ends
+
+     Scanner in = new Scanner(System.in);
+
+    // Now here we take input f rom user and encrypt it
+    public StringBuilder coder(){// methord to call and encrypt data
+        StringBuilder s = new StringBuilder(in.nextLine());
+        for (int i = 0; i < s.length(); i++) {
+        try {// This loop throws arrayoutofbound exception so using try catch block
+
+            s.replace(i,i+1,String.valueOf(numarr.get(chararr.indexOf(s.charAt(i))))+' ');
+        } catch (Exception e) {
+        }
+    }
+     return s;
+}
+
+// Code of decoder
+    public StringBuilder decode(){
+        StringBuilder out = new StringBuilder();// This will create a string builder and it also out the result of the code
+        System.out.println("Enter the decoder format"); // ask user to enter the code
+        String a = in.nextLine(); // temp only  need for making the array
+        String [] arr = a.split(" ");// This array stores the spilited value of string a
+
+        for (int i = 0; i < arr.length; i++) {// This code decode the product
+            int x = Integer.parseInt(arr[i]); // converting into int as String value not supported
+            out.append(chararr.get(numarr.indexOf(x)));// This value update the out value to decoded form
+        }// End of the loop
+
+        return out; // This returns the string builder argument
+
+    }// ends the decoder
+
+
+}// Ends the class

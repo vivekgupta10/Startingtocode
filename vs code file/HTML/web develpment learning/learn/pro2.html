@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta hp-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meadia quaries</title>
+    <style>
+        .container{
+            color: blue;
+            display: none;
+            font-size: 150px;
+        }
+
+        @media only screen and (max-width:300px){
+            #l1{
+            display: block;
+            background-color: pink;
+            
+        }
+        }
+        @media only screen and (min-width:301px) and (max-width:600px){
+            #l2{
+            display: block;
+            background-color: blue;
+        }
+        }
+        @media only screen and (min-width:601px) and (max-width:900px){
+            #l3{
+            display: block;
+            background-color: green;
+        }
+        }
+        @media only screen and (min-width:901px) and (max-width:1200px){
+            #l4{
+            /* display: block; */
+            /* background-color: red; */
+        }
+        }
+
+        .some{
+            font-size:111px;
+        }
+    </style>
+</head>
+<body>
+    <div class="contain">
+        <div class="container" id="l1"><p>Its worlking here is the proof</p></div>
+        <div class="container" id="l2"><p> Its worlking here is second proof</p></div>
+        <div class="container" id="l3"><p>How to do study tutorial</p></div>
+        <div class="container" id="l4"><p>How to play games tutorial</p></div>
+    </div>
+
+    <div class="some">
+        
+        
+        <p> Lesson succesfully completed</p>
+    </div>
+</body>
+</html>
