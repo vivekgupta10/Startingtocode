@@ -1,6 +1,37 @@
 #include <iostream>
 using namespace std;
 
+void calculator(int a ,int b ,int c){
+    int sum;
+    if(c==1){ // This if else ladder will help us to print the expected output
+        sum = a+b;
+        cout<<sum;
+    
+    }
+    else if(c==2){
+        sum = a-b;
+        cout<<sum;
+    }
+    else if(c==3){
+        sum = a*b;
+        cout<<sum;
+    }
+    else if(c==4){
+        sum = a/b;
+        cout<<sum;
+    }else{
+        cout<<"Wrong decision";
+        sum = 53;
+    }
+    cout<<"\n Enter the operation";
+    cin>>c;
+    cout<<"\nEnter another number";
+    cin>>b;
+    calculator(sum,b,c);
+       
+
+}
+
 int main(){
 
     int c,a,b;// Here we create the variables need for this calculator
@@ -14,22 +45,7 @@ int main(){
 
     cout<<"Enter the second number\n";// Here we ask second number
     cin>>b;// Here we take second number
-
-    if(c==1){ // This if else ladder will help us to print the expected output
-        cout<<a+b;
-    }
-    else if(c==2){
-        cout<<a-b;
-    }
-    else if(c==3){
-        cout<<a*b;
-    }
-    else if(c==4){
-        cout<<a/b;
-    }else{
-        cout<<"Wrong decision";
-    }
-    cout<<"\n";
-    cin>>a;
+    calculator(a,b,c) ;
+    
     return 0;
 }
