@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Coding/CLionProjects/clionpro/main.cpp">
+		<Unit filename="D:/Coding/CLionProjects/clionpro/testing.cpp">
 			<Option target="clionpro"/>
 		</Unit>
 		<Unit filename="D:/Coding/CLionProjects/clionpro/CMakeLists.txt">

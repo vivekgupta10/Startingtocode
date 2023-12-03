@@ -1,9 +1,272 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="clionpro" targetName="clionpro" />
+    </generated>
+  </component>
   <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bb1b2633-5d00-4718-a2d9-43edcceff44f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/background.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pycharm/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../pycharm/opencv/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/clionpro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/clionpro.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.2/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.2/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.2/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.2/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.2/CMakeRCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.2/CMakeRCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.2/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.2/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clionpro.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clionpro.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clionpro.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clionpro.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clionpro.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clionpro.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clionpro.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clionpro.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clionpro.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clionpro.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clionpro.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clionpro.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clionpro.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clionpro.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clionpro.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clionpro.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clionpro.dir/linklibs.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clionpro.dir/linklibs.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clionpro.dir/main.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clionpro.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clionpro.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clionpro.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clionpro.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clionpro.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clionpro.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/clionpro.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/clionpro.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IdeaProjects/Intellijfx/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../IdeaProjects/Intellijfx/.idea/libraries/lib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IdeaProjects/Intellijfx/src/com/fx/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../IdeaProjects/Intellijfx/src/com/fx/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IdeaProjects/intellipro/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../IdeaProjects/intellipro/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IdeaProjects/intellipro/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../IdeaProjects/intellipro/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IdeaProjects/intellipro/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../IdeaProjects/intellipro/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IdeaProjects/intellipro/.idea/project-template.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../IdeaProjects/intellipro/.idea/project-template.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IdeaProjects/intellipro/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../IdeaProjects/intellipro/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IdeaProjects/intellipro/src/com/company/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../IdeaProjects/intellipro/src/com/company/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IdeaProjects/intellipro/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../IdeaProjects/intellipro/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IdeaProjects/intellipro/src/com/company/advance_calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../IdeaProjects/intellipro/src/com/company/advance_calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IdeaProjects/intellipro/src/com/company/areacal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../IdeaProjects/intellipro/src/com/company/areacal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IdeaProjects/intellipro/src/com/company/testing.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../IdeaProjects/intellipro/src/com/company/testing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IdeaProjects/intellipro/untitled104.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../IdeaProjects/intellipro/untitled104.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/.vscode/extensions.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/.vscode/extensions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/.vscode/launch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/C++/first.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/C++/first.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/HTML/full website development/HTML/CONGPAGEYU for sign in.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/HTML/full website development/HTML/CONGPAGEYU for sign in.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/HTML/full website development/HTML/CONGPAGEYU.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/HTML/full website development/HTML/CONGPAGEYU.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/HTML/full website development/HTML/after sign in mahatama gandhi.HTML" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/HTML/full website development/HTML/after sign in mahatama gandhi.HTML" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/HTML/full website development/HTML/css/acreate an account.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/HTML/full website development/HTML/css/acreate an account.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/HTML/full website development/HTML/css/base for html.HTML" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/HTML/full website development/HTML/css/base for html.HTML" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/HTML/full website development/HTML/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/HTML/full website development/HTML/css/css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/HTML/full website development/HTML/mahatama gandhi .HTML" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/HTML/full website development/HTML/mahatama gandhi .HTML" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/HTML/full website development/HTML/sign up page.HTML" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/HTML/full website development/HTML/sign up page.HTML" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/HTML/full website development/HTML/try.HTML" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/HTML/full website development/HTML/try.HTML" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/HTML/full website development/zclone/Amazonclone/Aboutus.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/HTML/full website development/zclone/Amazonclone/Aboutus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/HTML/full website development/zclone/Amazonclone/Roboto/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/HTML/full website development/zclone/Amazonclone/Roboto/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/HTML/full website development/zclone/Amazonclone/backup/1backup.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/HTML/full website development/zclone/Amazonclone/backup/1backup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/HTML/full website development/zclone/Amazonclone/backup/Aboutus.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/HTML/full website development/zclone/Amazonclone/backup/Aboutus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/HTML/full website development/zclone/Amazonclone/backup/Tmeadia.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/HTML/full website development/zclone/Amazonclone/backup/Tmeadia.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/HTML/full website development/zclone/Amazonclone/backup/backup.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/HTML/full website development/zclone/Amazonclone/backup/backup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/HTML/full website development/zclone/Amazonclone/backup/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/HTML/full website development/zclone/Amazonclone/backup/css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/HTML/full website development/zclone/Amazonclone/backup/mmedia.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/HTML/full website development/zclone/Amazonclone/backup/mmedia.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/HTML/full website development/zclone/Amazonclone/backup/notes/backup for search.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/HTML/full website development/zclone/Amazonclone/backup/notes/backup for search.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/HTML/full website development/zclone/Amazonclone/backup/notes/backup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/HTML/full website development/zclone/Amazonclone/backup/notes/backup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/HTML/full website development/zclone/Amazonclone/backup/notes/css.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/HTML/full website development/zclone/Amazonclone/backup/notes/css.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/HTML/full website development/zclone/Amazonclone/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/HTML/full website development/zclone/Amazonclone/css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/HTML/full website development/zclone/Amazonclone/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/HTML/full website development/zclone/Amazonclone/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/HTML/full website development/zclone/Amazonclone/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/HTML/full website development/zclone/Amazonclone/media.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/HTML/full website development/zclone/google/Roboto/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/HTML/full website development/zclone/google/Roboto/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/HTML/full website development/zclone/google/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/HTML/full website development/zclone/google/css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/HTML/full website development/zclone/google/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/HTML/full website development/zclone/google/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/HTML/testing enviroment for html.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/HTML/testing enviroment for html.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/HTML/tutorial sites/a simple calculater.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/HTML/tutorial sites/a simple calculater.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/HTML/tutorial sites/styled/use python file.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/HTML/tutorial sites/styled/use python file.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/HTML/tutorial sites/use python file.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/HTML/tutorial sites/use python file.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/HTML/web develpment learning/1st try to website/first try.HTML" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/HTML/web develpment learning/1st try to website/first try.HTML" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/HTML/web develpment learning/1st try to website/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/HTML/web develpment learning/1st try to website/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/HTML/web develpment learning/1st try to website/slide.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/HTML/web develpment learning/1st try to website/slide.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/HTML/web develpment learning/1st try to website/this is html .HTML" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/HTML/web develpment learning/1st try to website/this is html .HTML" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/HTML/web develpment learning/just for fun/Challenge notice.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/HTML/web develpment learning/just for fun/Challenge notice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/HTML/web develpment learning/just for fun/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/HTML/web develpment learning/just for fun/css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/HTML/web develpment learning/just for fun/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/HTML/web develpment learning/just for fun/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/HTML/web develpment learning/learn/pro.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/HTML/web develpment learning/learn/pro.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/HTML/web develpment learning/learn/pro1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/HTML/web develpment learning/learn/pro1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/HTML/web develpment learning/learn/pro2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/HTML/web develpment learning/learn/pro2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/HTML/web develpment learning/learn/pro3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/HTML/web develpment learning/learn/pro3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/HTML/web develpment learning/learn/pro4.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/HTML/web develpment learning/learn/pro4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/HTML/web develpment learning/learn/pro5.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/HTML/web develpment learning/learn/pro5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/HTML/web develpment learning/learn/temp.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/HTML/web develpment learning/learn/temp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/Java/cal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/Java/cal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/Java/coder_decoder.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/Java/coder_decoder.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/Java/game(intellij).java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/Java/game(intellij).java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/Java/javaprojects/games/mix.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/Java/javaprojects/games/mix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/Java/javaprojects/hell/tsol.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/Java/javaprojects/hell/tsol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/Java/javaprojects/javaprojects/greet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/Java/javaprojects/javaprojects/greet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/Java/javaprojects/ktom.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/Java/javaprojects/ktom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/Java/javaprojects/lib.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/Java/javaprojects/lib.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/Java/javaprojects/ney.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/Java/javaprojects/ney.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/Java/javaprojects/percal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/Java/javaprojects/percal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/Java/javaprojects/sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/Java/javaprojects/sum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/Java/javaprojects/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/Java/javaprojects/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/Java/learning/practicesheet/tf.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/Java/learning/practicesheet/tf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/Java/learning/practicesheet/tf1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/Java/learning/practicesheet/tf1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/Java/learning/practicesheet/tf10.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/Java/learning/practicesheet/tf10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/Java/learning/practicesheet/tf2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/Java/learning/practicesheet/tf2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/Java/learning/practicesheet/tf3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/Java/learning/practicesheet/tf3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/Java/learning/practicesheet/tf5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/Java/learning/practicesheet/tf5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/Java/learning/practicesheet/tf6.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/Java/learning/practicesheet/tf6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/Java/learning/practicesheet/tf7.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/Java/learning/practicesheet/tf7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/Java/learning/practicesheet/tf8.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/Java/learning/practicesheet/tf8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/Java/learning/testing.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/Java/learning/testing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/Java/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/Java/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/python/fun waring.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/python/fun waring.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/python/new python files/fun waring.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/python/new python files/fun waring.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/python/new python files/hour to minute.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/python/new python files/hour to minute.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/python/new python files/testing temp.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/python/new python files/testing temp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/python/new python files/testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/python/new python files/testing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/python/new python files/vs code file.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/python/new python files/vs code file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/python/physics calculator/1st law of motion.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/python/physics calculator/1st law of motion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/python/physics calculator/accelartion calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/python/physics calculator/accelartion calculator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/python/physics calculator/condiiton test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/python/physics calculator/condiiton test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/python/physics calculator/force cal testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/python/physics calculator/force cal testing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/python/physics calculator/force calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/python/physics calculator/force calculator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/python/physics calculator/speed converter.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/python/physics calculator/speed converter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/python/physics calculator/testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/python/physics calculator/testing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/python/testing enviroment for python.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/python/testing enviroment for python.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/python/testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/python/testing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/python/turtle.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/python/turtle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vs code file/python/vs code file.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../vs code file/python/vs code file.py" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FUSProjectUsageTrigger">
+    <session id="2053459399">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="14" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.55" value="1" />
+          <entry key="project.open.time.56" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.61" value="1" />
+          <entry key="project.open.time.63" value="1" />
+          <entry key="project.open.time.64" value="1" />
+          <entry key="project.open.time.68" value="1" />
+          <entry key="project.open.time.69" value="1" />
+          <entry key="project.open.time.76" value="1" />
+          <entry key="project.open.time.83" value="1" />
+          <entry key="project.open.time.86" value="1" />
+          <entry key="project.opened" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cpp" value="4328" />
+          <entry key="txt" value="16" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CMakeLists.txt" value="16" />
+          <entry key="ObjectiveC" value="4328" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cpp" value="10" />
+          <entry key="txt" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CMakeLists.txt" value="4" />
+          <entry key="ObjectiveC" value="9" />
+          <entry key="Scratch" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="518">
+              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testing.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/testing.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
@@ -11,9 +274,157 @@
     <option name="width" value="1346" />
     <option name="height" value="682" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="clionpro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="clionpro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clionpro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="ObjectiveC" />
+    <property name="full.screen.before.presentation.mode" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.clionpro">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clionpro" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="clionpro" TARGET_NAME="clionpro" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="clionpro" RUN_TARGET_NAME="clionpro">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.clionpro" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb1b2633-5d00-4718-a2d9-43edcceff44f" name="Default Changelist" comment="" />
+      <created>1673078885055</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673078885055</updated>
+      <workItem from="1673078887847" duration="460000" />
+      <workItem from="1673691470527" duration="500000" />
+      <workItem from="1673690375000" duration="590000" />
+      <workItem from="1673778851204" duration="859000" />
+      <workItem from="1673971076205" duration="1801000" />
+      <workItem from="1674991004483" duration="855000" />
+      <workItem from="1681233934246" duration="8000" />
+      <workItem from="1692201498227" duration="196000" />
+      <workItem from="1693129225997" duration="28000" />
+      <workItem from="1698073462791" duration="7000" />
+      <workItem from="1700114932027" duration="1231000" />
+      <workItem from="1701525523578" duration="423000" />
+      <workItem from="1701527184950" duration="373000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7331000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1384" height="740" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20489296" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32752612" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3292683" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32752612" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CMake" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.cpp" />
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

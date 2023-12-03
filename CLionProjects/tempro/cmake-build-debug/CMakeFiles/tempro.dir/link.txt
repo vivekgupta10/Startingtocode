@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\tempro.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\tempro.dir/objects.a @CMakeFiles\tempro.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\tempro.dir/objects.a -Wl,--no-whole-archive  -o tempro.exe -Wl,--out-implib,libtempro.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\tempro.dir\linklibs.rsp

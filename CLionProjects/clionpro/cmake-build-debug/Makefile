@@ -122,32 +122,32 @@ clionpro/fast:
 	$(MAKE) -f CMakeFiles\clionpro.dir\build.make CMakeFiles/clionpro.dir/build
 .PHONY : clionpro/fast
 
-main.obj: main.cpp.obj
+testing.obj: testing.cpp.obj
 
-.PHONY : main.obj
+.PHONY : testing.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\clionpro.dir\build.make CMakeFiles/clionpro.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+testing.cpp.obj:
+	$(MAKE) -f CMakeFiles\clionpro.dir\build.make CMakeFiles/clionpro.dir/testing.cpp.obj
+.PHONY : testing.cpp.obj
 
-main.i: main.cpp.i
+testing.i: testing.cpp.i
 
-.PHONY : main.i
+.PHONY : testing.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\clionpro.dir\build.make CMakeFiles/clionpro.dir/main.cpp.i
-.PHONY : main.cpp.i
+testing.cpp.i:
+	$(MAKE) -f CMakeFiles\clionpro.dir\build.make CMakeFiles/clionpro.dir/testing.cpp.i
+.PHONY : testing.cpp.i
 
-main.s: main.cpp.s
+testing.s: testing.cpp.s
 
-.PHONY : main.s
+.PHONY : testing.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\clionpro.dir\build.make CMakeFiles/clionpro.dir/main.cpp.s
-.PHONY : main.cpp.s
+testing.cpp.s:
+	$(MAKE) -f CMakeFiles\clionpro.dir\build.make CMakeFiles/clionpro.dir/testing.cpp.s
+.PHONY : testing.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... clionpro
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... testing.obj
+	@echo ... testing.i
+	@echo ... testing.s
 .PHONY : help
 
 

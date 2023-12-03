@@ -56,27 +56,27 @@ include CMakeFiles/clionpro.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/clionpro.dir/flags.make
 
-CMakeFiles/clionpro.dir/main.cpp.obj: CMakeFiles/clionpro.dir/flags.make
-CMakeFiles/clionpro.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Coding\CLionProjects\clionpro\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/clionpro.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\clionpro.dir\main.cpp.obj -c D:\Coding\CLionProjects\clionpro\main.cpp
+CMakeFiles/clionpro.dir/testing.cpp.obj: CMakeFiles/clionpro.dir/flags.make
+CMakeFiles/clionpro.dir/testing.cpp.obj: ../testing.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Coding\CLionProjects\clionpro\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/clionpro.dir/testing.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\clionpro.dir\testing.cpp.obj -c D:\Coding\CLionProjects\clionpro\testing.cpp
 
-CMakeFiles/clionpro.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/clionpro.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Coding\CLionProjects\clionpro\main.cpp > CMakeFiles\clionpro.dir\main.cpp.i
+CMakeFiles/clionpro.dir/testing.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/clionpro.dir/testing.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Coding\CLionProjects\clionpro\testing.cpp > CMakeFiles\clionpro.dir\testing.cpp.i
 
-CMakeFiles/clionpro.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/clionpro.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Coding\CLionProjects\clionpro\main.cpp -o CMakeFiles\clionpro.dir\main.cpp.s
+CMakeFiles/clionpro.dir/testing.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/clionpro.dir/testing.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Coding\CLionProjects\clionpro\testing.cpp -o CMakeFiles\clionpro.dir\testing.cpp.s
 
 # Object files for target clionpro
 clionpro_OBJECTS = \
-"CMakeFiles/clionpro.dir/main.cpp.obj"
+"CMakeFiles/clionpro.dir/testing.cpp.obj"
 
 # External object files for target clionpro
 clionpro_EXTERNAL_OBJECTS =
 
-clionpro.exe: CMakeFiles/clionpro.dir/main.cpp.obj
+clionpro.exe: CMakeFiles/clionpro.dir/testing.cpp.obj
 clionpro.exe: CMakeFiles/clionpro.dir/build.make
 clionpro.exe: CMakeFiles/clionpro.dir/linklibs.rsp
 clionpro.exe: CMakeFiles/clionpro.dir/objects1.rsp

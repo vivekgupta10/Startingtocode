@@ -1,0 +1,3 @@
+D:/Coding/CLionProjects/tempro/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Coding/CLionProjects/tempro/cmake-build-debug/CMakeFiles/tempro.dir
+D:/Coding/CLionProjects/tempro/cmake-build-debug/CMakeFiles/rebuild_cache.dir

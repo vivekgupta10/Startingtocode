@@ -3,5 +3,8 @@
         "Java/javaprojects",
         "Java"
     ],
-    "java.project.outputPath": "lib"
+    "java.project.outputPath": "lib",
+    "files.associations": {
+        "iostream": "cpp"
+    }
 }

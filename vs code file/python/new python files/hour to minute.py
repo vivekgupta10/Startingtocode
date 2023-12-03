@@ -1,5 +1,0 @@
-print ("This is a simple python to convery hour ot minute")
-a = input("Type hours to convert: ")
-print (a*60,"minutes")
-raw_input('press enter to exit:')
-exit()
